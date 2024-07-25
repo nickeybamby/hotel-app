@@ -1,11 +1,13 @@
 .heroSlider {
   height: 100vh;
+  width: 100%;
   position: relative;
 }
 
 .heroSlider__slide {
   position: absolute;
   height: 100%;
+  width: 100%;
   background-color: #feffbe;
   display: flex;
   justify-content: center;

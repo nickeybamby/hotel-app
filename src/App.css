@@ -1,58 +1,104 @@
 /* -----GENERAL STYLES----- */
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-gray-300);
-    line-height: 1.7;
-    overflow-x: hidden;
-    background: var(--color-bg-body)
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-gray-300);
+  line-height: 1.7;
+  overflow-x: hidden;
+  background: var(--color-bg-body);
 }
 
-h1, h2 {
-    font-family: 'Kurale', sans-serif;
-    color: var(--color-primary);
-    line-height: 1.2;
-    font-size: 3rem;
+h1,
+h2 {
+  font-family: "Kurale", sans-serif;
+  color: var(--color-primary);
+  line-height: 1.2;
+  font-size: 3rem;
 }
 
-h3, h4, h5 {
-    font-family: 'Khand', sans-serif;
-    color: var(--color-secondary);
-    line-height: 1.2;
+h3,
+h4,
+h5 {
+  font-family: "Khand", sans-serif;
+  color: var(--color-secondary);
+  line-height: 1.2;
 }
 
 .italic {
-    font-family: "Marck Script";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
+  font-family: "Marck Script";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 .container {
-    width: var(--container-width-lg);
-    max-width: 1920px;
-    margin: 0 auto;
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 a {
-    color: var(--color-link);
+  color: var(--color-link);
 }
 
 img {
-    display: block;
-    object-fit: cover;
-    width: 100%;
+  display: block;
+  object-fit: cover;
+  width: 100%;
 }
 
 .btn {
-    color: var(--color-link);
-    width: 200px;
-    margin: 0 auto;
-    padding: 0.9rem 2rem;
-    background: var(--color-btn);
-    transition: var(--transition);
+  color: var(--color-link);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  background: var(--color-btn);
+  transition: var(--transition);
 }
 
 .btn:hover {
-    background: var(--color-btn-hover);
+  background: var(--color-btn-hover);
 }
 
+.btn__outline {
+  color: var(--color-btn-hover);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  border: 2px solid var(--color-btn);
+  transition: var(--transition);
+}
+
+.btn__outline:hover {
+  border: 2px solid var(--color-btn-hover);
+}
+
+
+
+/* MWDIA QUERRIES (medium screens) */
+@media (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size:  2.2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+/* MWDIA QUERRIES (small screens) */
+@media (max-width: 600px) {
+  h1 {
+    font-size:  2.2rem;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}

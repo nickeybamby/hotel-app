@@ -1,0 +1,85 @@
+.room__dest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  min-height: 400px;
+}
+
+.group:hover .group-hover\:shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.room__dest-img {
+  overflow: hidden;
+}
+
+.rm__img:hover {
+  transform: scale(1.1);
+  transition: all 300ms ease-in-out;
+  width: 100%;
+}
+
+.room__details {
+  background: var(--color-bg-body);
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-50%);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: var(--font-family-h5);
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.room__cap {
+  min-width: 250px;
+  padding: 0 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon__people {
+  font-size: 19px;
+  align-self: center;
+}
+
+.room__text {
+  text-align: center;
+  padding: 0 7px;
+}
+
+.room__h3 {
+  color: var(--color-primary);
+}
+
+.room__text-desc {
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 25px;
+}
+
+.room-btn {
+  text-align: center;
+  width: 100%;
+  padding: 0.9rem 2rem;
+  margin-bottom: 10px;
+  color: var(--color-link);
+  background: var(--color-btn);
+  transition: var(--transition);
+}
+
+.room-btn:hover {
+  background: var(--color-btn-hover);
+}

@@ -1,0 +1,40 @@
+import "./room.css";
+// Link
+import { Link } from "react-router-dom";
+
+// icons
+import { BsPeople } from "react-icons/bs";
+
+const Room = ({ room }) => {
+  // destructure room
+  const { id, name, image, maxPerson, description, price } = room;
+  return (
+    
+    <div className="room__dest group">
+      {/* img */}
+      <div className="room__dest-img">
+        <img className="rm__img" src={image} alt="" />
+      </div>
+      {/* details */}
+      <div className="room__details">
+        <div className="room__cap">
+          <BsPeople className="icon__people" />
+          <div>max 2 people</div>
+        </div>
+      </div>
+      {/* name  & description */}
+      <div className="room__text">
+        <Link to={`/room/${id}`}>
+          <h3 className="room__h3">{name}</h3>
+        </Link>
+        <p className="room__text-desc">{description.slice(0, 60)}</p>
+      </div>
+      {/* button */}
+      <Link to={`/room/${id}`} className="room-btn">
+        View Room
+      </Link>
+    </div>
+  );
+};
+
+export default Room;

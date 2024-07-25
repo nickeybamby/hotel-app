@@ -9,6 +9,7 @@ import Rooms from "./pages/rooms/Rooms";
 import Services from "./pages/services/Services";
 import NotFound from "./pages/notFound/NotFound";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="services" element={<Services />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };

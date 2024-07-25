@@ -4,7 +4,7 @@ import "./aboutSection.css";
 
 const DeliciousFood = () => {
   return (
-    <div className="main__wrapper">
+    <div className="main__wrapper deliciousFood">
       <div className="container about__wrapper">
         <div className="about__wrapper-left">
           <h4>Delicious Food</h4>

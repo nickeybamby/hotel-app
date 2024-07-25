@@ -56,6 +56,6 @@
 @media (max-width: 600px) {
   .gallery__wrapper {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 15px;
   }
 }

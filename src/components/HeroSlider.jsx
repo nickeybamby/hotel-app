@@ -57,7 +57,7 @@ const HeroSlider = () => {
           <SwiperSlide className="heroSlider__slide" key={index}>
             <div className="heroSlider__slide-text">
               <div className="dent">Just Enjoy and Relax</div>
-              <h2>{title}</h2>
+              <h1>{title}</h1>
               <p className="italic">{sub}</p>
               <Link to="/rooms" className="btn">{btnText}</Link>
             </div>

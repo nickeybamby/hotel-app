@@ -1,9 +1,15 @@
-import './services.css'
+import Header from "../../components/Header";
+import HeaderImage from "../../images/gallery/img__services.png";
+import "./services.css";
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <>
+      <Header title="Unwind In Style." image={HeaderImage}>
+        Discover personalized service tailored to your needs.
+      </Header>
+    </>
+  );
+};
 
-export default Services
+export default Services;

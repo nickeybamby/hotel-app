@@ -1,9 +1,15 @@
-import './rooms.css'
+import Header from "../../components/Header";
+import HeaderImage from "../../images/gallery/img__rooms.png";
+import "./rooms.css";
 
 const Rooms = () => {
   return (
-    <div>Rooms</div>
-  )
-}
+    <>
+      <Header title="Where Dreams Meet Reality" image={HeaderImage}>
+        Home Away from Home.
+      </Header>
+    </>
+  );
+};
 
-export default Rooms
+export default Rooms;

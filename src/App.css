@@ -24,6 +24,7 @@ h5 {
 }
 
 .italic {
+  color: var(--color-bg-body);
   font-family: "Marck Script";
   font-weight: 400;
   font-style: normal;
@@ -85,7 +86,7 @@ img {
   }
 
   h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -95,6 +96,7 @@ img {
 @media (max-width: 600px) {
   body p {
     font-size: 15px;
+    color: var(--color-gray-300);
   }
   h1 {
     font-size:  2.2rem;
@@ -102,6 +104,6 @@ img {
   }
 
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }

@@ -10,35 +10,61 @@ import {
   Gallery6,
 } from "../data";
 
+import { motion } from "framer-motion";
+
+const variants = {
+  initial: {
+    x: 0,
+    y: 100,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1.2,
+      staggerChildren: 0.1,
+    },
+  },
+};
+
 const GallerySection = () => {
   return (
-    <section className="gallery__section">
+    <motion.section
+      variants={variants}
+      initial="initial"
+      whileInView="animate"
+      className="gallery__section"
+    >
       <div className="container gallery__container">
-        <h3>Exquisite View</h3>
-        <h1>Gallery</h1>
-        <div className=" gallery__wrapper">
-          <div className="gallery-image">
+        <motion.h3>Exquisite View</motion.h3>
+        <motion.h1>Gallery</motion.h1>
+        <motion.div variants={variants} className=" gallery__wrapper">
+          <motion.div variants={variants} className="gallery-image">
             <img src={Gallery1} alt="hotel lobby" />
-          </div>
-          <div className="gallery-image">
+          </motion.div>
+          <motion.div variants={variants} className="gallery-image">
             <img src={Gallery2} alt="Reception" />
-          </div>
-          <div className="gallery-image">
+          </motion.div>
+          <motion.div variants={variants} className="gallery-image">
             <img src={Gallery3} alt="hotel bathroom" />
-          </div>
-          <div className="gallery-image">
+          </motion.div>
+          <motion.div variants={variants} className="gallery-image">
             <img src={Gallery4} alt="hotel bar" />
-          </div>
-          <div className="gallery-image">
+          </motion.div>
+          <motion.div variants={variants} className="gallery-image">
             <img src={Gallery5} alt="Hotel corridor" />
-          </div>
-          <div className="gallery-image">
+          </motion.div>
+          <motion.div variants={variants} className="gallery-image">
             <img src={Gallery6} alt="hotel top bar" />
-          </div>
-        </div>
-        <Link to='./gallery' className="btn__outline gall__btn" >View Gallery</Link>
+          </motion.div>
+        </motion.div>
+        <Link to="./gallery" className="btn__outline gall__btn">
+          View Gallery
+        </Link>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

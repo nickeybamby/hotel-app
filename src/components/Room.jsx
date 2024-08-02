@@ -5,12 +5,28 @@ import { Link } from "react-router-dom";
 // icons
 import { BsPeople } from "react-icons/bs";
 
+import { motion } from "framer-motion";
+
+const variants = {
+  initial: {
+    y: 200,
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1.2,
+      staggerChildren: 0.1,
+    },
+  },
+};
+
 const Room = ({ room }) => {
   // destructure room
   const { id, name, image, maxPerson, description, price } = room;
   return (
-    
-    <div className="room__dest group">
+    <motion.div variants={variants} className="room__dest group">
       {/* img */}
       <div className="room__dest-img">
         <img className="rm__img" src={image} alt="" />
@@ -33,7 +49,7 @@ const Room = ({ room }) => {
       <Link to={`/room/${id}`} className="room-btn">
         View Room
       </Link>
-    </div>
+    </motion.div>
   );
 };
 

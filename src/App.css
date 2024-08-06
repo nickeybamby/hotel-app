@@ -107,6 +107,17 @@ img {
     font-size: 1.8rem;
   }
 
+  .btn {
+    color: var(--color-link);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    background: var(--color-btn);
+    transition: var(--transition);
+  }
   
+  .btn:hover {
+    background: var(--color-btn-hover);
+  }
   
 }

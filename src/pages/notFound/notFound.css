@@ -1,0 +1,71 @@
+.notfound__section {
+  background-image: url("../../images/gallery/img__notfound.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  margin-top: 5.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound__container {
+  margin-top: -60px;
+}
+
+.notfound__container h1 {
+  font-size: 70px;
+}
+
+.notfound__container h2 {
+  margin-bottom: 30px;
+}
+
+.notfound__container p {
+  max-width: 400px;
+  font-weight: 600;
+}
+
+.notfound__btns {
+  margin-top: 30px;
+  
+  .notBot {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .notfound__section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notfound__container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notfound__section h1, 
+  .notfound__section h2 {
+    text-align: center;
+  }
+
+  .notfound__section p {
+    text-align: center;
+    background-color: rgba(237, 255, 174, 0.37);
+    backdrop-filter: blur(7px);
+  }
+
+  .notfound__btns {
+    padding-top: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+}

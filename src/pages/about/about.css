@@ -1,0 +1,43 @@
+.about__main-wrapper {
+  padding-top: 6rem;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+}
+
+.about__article-text {
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
+  text-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.about__article-text p {
+  text-wrap: wrap;
+}
+
+.a__article-wrapper {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* MEQIA QUERY medium screen*/
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 850px) {
+  .about__article-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .a__article-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+

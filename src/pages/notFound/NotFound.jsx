@@ -10,7 +10,7 @@ const NotFound = () => {
           <h2>Page Not Found</h2>
           <p>
             It's a shock the page you were looking for is no where to be found.{" "}
-            <br /> Try one of these instead
+            <br /> Try one of these instead.
           </p>
 
           <div className="notfound__btns">

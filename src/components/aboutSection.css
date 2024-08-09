@@ -31,7 +31,7 @@
 @media (max-width: 1024px) {
     .main__wrapper {
         height: fit-content;
-        padding: 10rem 0;
+        padding: 0 0 4rem;
     }
 
     .about__wrapper {
@@ -44,7 +44,7 @@
 
 
     .deliciousFood {
-        padding:  1rem 0 6rem 0;
+        padding-top:  1rem ;
       }
 }
 
@@ -52,6 +52,7 @@
 /* MEDIA QUERRIES (mobile screens) */
 @media (max-width: 600px) {
     .main__wrapper {
+      
         height: fit-content;
         display: flex;
         flex-direction: column;

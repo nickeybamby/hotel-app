@@ -1,0 +1,152 @@
+.main__wrapper {
+  margin-top: 6rem;
+  width: 100vw;
+  height: fit-content;
+  display: grid;
+  place-items: center;
+}
+
+.about__wrapper {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.about__wrapper-left {
+  margin-top: -3rem;
+}
+
+.about__wrapper-left h4 {
+  margin-bottom: 1rem;
+}
+
+.about__wrapper-left p {
+  margin: 1rem 0 3.5rem;
+}
+
+/* MEDIA QUERRIES (medium screens) */
+@media (max-width: 1024px) {
+  .main__wrapper {
+    height: fit-content;
+    padding: 10rem 0 4rem;
+  }
+
+  .about__wrapper {
+    gap: 0;
+  }
+
+  .about__wrapper-left {
+    margin-top: 0;
+  }
+
+  .about__wrapper-left p {
+    padding-right: 15px;
+  }
+
+  .deliciousFood {
+    padding-top: 1rem;
+  }
+}
+
+/* MEDIA QUERRIES (mobile screens) */
+@media (max-width: 600px) {
+  .main__wrapper {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__wrapper-right {
+    margin-top: 3rem;
+  }
+}
+
+/* Meet our chef */
+
+.main-service__wrapper {
+  margin-bottom: 3rem;
+  padding-top: 6rem;
+  width: 100vw;
+  height: fit-content;
+  display: grid;
+  place-items: center;
+}
+
+.service__wrapper {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.service__wrapper-left h4 {
+  margin-bottom: 1rem;
+}
+
+.service__wrapper-left p {
+  margin: 1rem 0 3.5rem;
+}
+
+/* MEDIA QUERRIES (medium screens) */
+@media (max-width: 1024px) {
+  .main-service__wrapper {
+    padding-top: 0;
+  }
+
+  .service__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+    height: fit-content;
+    padding: 5rem 0 4rem;
+  }
+
+  .service__wrapper {
+    gap: 0;
+  }
+
+  .service__wrapper-left {
+    padding-right: 15px;
+  }
+}
+
+/* MEDIA QUERRIES (mobile screens) */
+@media (max-width: 600px) {
+  service__wrapper {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .service__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service__wrapper-right {
+    margin-top: 3rem;
+  }
+}
+
+/* margen for the spar session */
+
+.wrpnd {
+    margin-bottom: 5rem;
+}

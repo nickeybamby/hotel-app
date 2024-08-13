@@ -1,0 +1,63 @@
+.hotelRooms {
+    padding: 6rem 0;
+}
+
+.rooms__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.trainer h3 {
+    margin-top: 2rem;
+}
+
+.trainer p {
+    margin-top: 0.5rem;
+}
+
+.trainer__facilities {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trainer__facilities a {
+    color: var(--color-primary);
+}
+
+.room__cap {
+    min-width: 250px;
+    padding: 0 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .icon__people {
+    font-size: 19px;
+    align-self: center;
+  }
+
+/* MEDIA QUERIES (medium screens */
+@media screen and (max-width: 1024px) {
+    .rooms__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+}
+
+/* MEDIA QUERIES (small screens */
+@media screen and (max-width: 600px) {
+    .rooms__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    card .trainer {
+        width: 80%;
+    }
+}

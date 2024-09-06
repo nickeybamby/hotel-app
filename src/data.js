@@ -17,8 +17,7 @@ import {
   FaStopwatch,
 } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-
-import { SiOpenaigym } from "react-icons/si";
+import { IoLogoNoSmoking } from "react-icons/io";
 
 // hotel gallery
 import Gallery1 from "./images/gallery/gallery1.png";
@@ -33,24 +32,24 @@ export { Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6 };
 export const roomData = [
   {
     id: 1,
-    name: "Superior Room",
+    name: "Queen Deluxe",
     description:
-      "Our Deluxe Room offers a perfect blend of comfort and elegance. Featuring a plush king-sized bed, modern furnishings, and a spacious en-suite bathroom, this room is designed for relaxation. Enjoy amenities such as free Wi-Fi, a flat-screen TV, and a minibar. Large windows provide plenty of natural light and stunning views",
+      "Our Queen Deluxe Room offers a perfect blend of luxury",
     facilities: [
       { name: "Wifi", icon: <FaWifi /> },
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: 2,
-    price: 20000,
+    price: 60000,
     image: Room1Img,
     imageLg: Room1ImgLg,
   },
   {
     id: 2,
-    name: "Diamond Room",
+    name: "Executive Room",
     description:
       "Our Deluxe Room offers a perfect blend of comfort and elegance. Featuring a plush king-sized bed, modern furnishings, and a spacious en-suite bathroom, this room is designed for relaxation. Enjoy amenities such as free Wi-Fi, a flat-screen TV, and a minibar. Large windows provide plenty of natural light and stunning views",
     facilities: [
@@ -58,16 +57,16 @@ export const roomData = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: 2,
-    price: 30000,
+    price: 50000,
     image: Room2Img,
     imageLg: Room2ImgLg,
   },
   {
     id: 3,
-    name: "Delux Room",
+    name: "Studio Room",
     description:
       "Our Deluxe Room offers a perfect blend of comfort and elegance. Featuring a plush king-sized bed, modern furnishings, and a spacious en-suite bathroom, this room is designed for relaxation. Enjoy amenities such as free Wi-Fi, a flat-screen TV, and a minibar. Large windows provide plenty of natural light and stunning views",
     facilities: [
@@ -75,16 +74,16 @@ export const roomData = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: 2,
-    price: 20000,
+    price: 45000,
     image: Room3Img,
     imageLg: Room3ImgLg,
   },
   {
     id: 4,
-    name: "Standard Room",
+    name: "Deluxe Room",
     description:
       "Our Deluxe Room offers a perfect blend of comfort and elegance. Featuring a plush king-sized bed, modern furnishings, and a spacious en-suite bathroom, this room is designed for relaxation. Enjoy amenities such as free Wi-Fi, a flat-screen TV, and a minibar. Large windows provide plenty of natural light and stunning views",
     facilities: [
@@ -92,10 +91,10 @@ export const roomData = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: 2,
-    price: 15000,
+    price: 38000,
     image: Room4Img,
     imageLg: Room4ImgLg,
   },
@@ -118,14 +117,14 @@ const Room12 = require("./images/gallery/gallery12.png");
 export const roomPage = [
   {
     id: 1,
-    name: "Superior Room",
+    name: "Queen Deluxe",
     desc: "Our Deluxe Room offers a perfect blend of comfort and elegance.",
     facilities: [
       { name: "Wifi", icon: <FaWifi /> },
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -133,7 +132,7 @@ export const roomPage = [
         <div>Max 2 people</div>
       </div>
     ),
-    price: 20000,
+    price: 60000,
     image: Room1,
   },
   {
@@ -145,7 +144,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -165,7 +164,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -185,7 +184,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -205,7 +204,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -225,7 +224,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -245,7 +244,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -265,7 +264,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -285,7 +284,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -305,7 +304,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -325,7 +324,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">
@@ -345,7 +344,7 @@ export const roomPage = [
       { name: "Coffee", icon: <FaCoffee /> },
       { name: "Parking", icon: <FaParking /> },
       { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "GYM", icon: <FaStopwatch /> },
+      { name: "Smoke", icon: <IoLogoNoSmoking /> },
     ],
     maxPerson: (
       <div className="room__cap">

@@ -38,7 +38,7 @@ const Services = () => {
             <h4>Delicious Food</h4>
             <h2>We Serve Fresh & Delicious Meals</h2>
             <p>
-              At [Hotel Name], we believe that great hospitality starts with
+              At Hotel De'Zani, we believe that great hospitality starts with
               great food. Our on-site restaurant offers a diverse menu featuring
               fresh, locally sourced ingredients, ensuring every meal is a
               delightful experience. From hearty breakfasts to gourmet dinners,
@@ -69,7 +69,7 @@ const Services = () => {
           <motion.div variants={variants} className="service__wrapper-right">
             <h2>Meet Our Chef</h2>
             <p>
-              At [Hotel Name], we believe that great hospitality starts with
+              At Hotel De'Zani, we believe that great hospitality starts with
               great food. Our on-site restaurant offers a diverse menu featuring
               fresh, locally sourced ingredients, ensuring every meal is a
               delightful experience. From hearty breakfasts to gourmet dinners,
@@ -91,7 +91,7 @@ const Services = () => {
             {/* <h4>Delicious Food</h4> */}
             <h2>Hospitality & Spa</h2>
             <p>
-              At [Hotel Name], we believe that great hospitality starts with
+              At Hotel De'Zani, we believe that great hospitality starts with
               great comfort. Our on-site spa sessions offer a relaxing package
               for our customers, ensuring
               every session is a delightful experience. From room services, to

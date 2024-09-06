@@ -32,9 +32,9 @@ const RoomSection = () => {
         <h1>Rooms & Suites</h1>
         {/* grid */}
         <div className="room__section-slide">
-            {rooms.map((room) => {
-                return <Room room={room} key={room.id} />;
-            })}
+          {rooms.map((room) => {
+            return <Room room={room} key={room.id} />;
+          })}
         </div>
       </div>
     </motion.section>

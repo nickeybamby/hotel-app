@@ -48,15 +48,16 @@ const ContactSection = () => {
             <motion.h3 variants={variants}>Contact</motion.h3>
             <motion.div className="item" variants={variants}>
                 <h4>Mail</h4>
-                <span>info@clinicraftstudios.agency</span>
+                <span>hoteldiezani@gmail.com</span>
             </motion.div>
             <motion.div className="item">
                 <h4>Address</h4>
-                <span>Divine Estate, Warri</span>
+                <span>Water Resources Izakpa, Off Airport Road, Warri, Delta State.</span>
             </motion.div>
             <motion.div className="item">
                 <h4>Phone</h4>
-                <span>+234 801 234 5678</span>
+                <p>0906 581 9236</p>
+                <p>0907 694 0007</p>
             </motion.div>
         </motion.div>
         <div className="formContainer">

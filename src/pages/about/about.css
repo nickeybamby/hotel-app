@@ -28,6 +28,10 @@
 
 /* MEQIA QUERY medium screen*/
 @media screen and (max-width: 1024px) {
+  .a__wrapper-right p {
+    padding-top: 20px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 850px) {

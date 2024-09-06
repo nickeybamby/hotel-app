@@ -37,7 +37,7 @@ const Contact = () => {
         whileInView="animate"
       >
         <motion.a
-          href="mailto:info@clinicraftstudios.agency"
+          href="mailto:hoteldiezani@gmail.com"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -51,7 +51,7 @@ const Contact = () => {
           <BsMessenger />
         </motion.a>
         <motion.a
-          href="https://wa.me/+2348033905994"
+          href="https://wa.me/+23480110429842"
           target="_blank"
           rel="noreferrer noopener"
         >

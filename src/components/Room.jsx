@@ -7,6 +7,17 @@ import { BsPeople } from "react-icons/bs";
 
 import { motion } from "framer-motion";
 
+// import icons
+import {
+  FaWifi,
+  FaCoffee,
+  FaParking,
+  FaCocktail,
+  FaStopwatch,
+} from "react-icons/fa";
+
+import { IoLogoNoSmoking } from "react-icons/io";
+
 const variants = {
   initial: {
     y: 200,
@@ -24,7 +35,7 @@ const variants = {
 
 const Room = ({ room }) => {
   // destructure room
-  const { id, name, image, maxPerson, description, price } = room;
+  const { id, name, image, maxPerson, description, facilities, price } = room;
   return (
     <motion.div variants={variants} className="room__dest group">
       {/* img */}
@@ -43,9 +54,12 @@ const Room = ({ room }) => {
         <Link to={`/room/${id}`}>
           <h3 className="room__h3">{name}</h3>
         </Link>
-        <p className="room__text-desc">{description.slice(0, 60)}</p>
+        {/* <p className="room__text-desc">{description.slice(0, 60)}</p> */}
+
+        <p> { price } </p> <br />
       </div>
       {/* button */}
+
       <Link to={`/room/${id}`} className="room-btn">
         View Room
       </Link>

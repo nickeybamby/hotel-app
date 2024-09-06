@@ -19,20 +19,20 @@ import slide3 from "../images/heroSlider/slide3.jpg";
 
 const slides = [
   {
-    title: "Luxury Hotel & Spa",
-    sub: "...hospitality like no other",
+    title: "Hotel De'Zani",
+    sub: "...passion for hospitality",
     bg: slide1,
     btnText: "Rooms & Suites",
   },
   {
-    title: "Luxury Hotel & Spa",
-    sub: "...hospitality like no other",
+    title: "Hotel De'Zani",
+    sub: "...passion for hospitality",
     bg: slide2,
     btnText: "Rooms & Suites",
   },
   {
-    title: "Luxury Hotel & Spa",
-    sub: "...hospitality like no other",
+    title: "Hotel De'Zani",
+    sub: "...passion for hospitality",
     bg: slide3,
     btnText: "Rooms & Suites",
   },

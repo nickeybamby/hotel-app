@@ -14,6 +14,8 @@ import {
   FaStopwatch,
 } from "react-icons/fa";
 
+import { IoLogoNoSmoking } from "react-icons/io";
+
 const Rooms = () => {
   return (
     <>
@@ -34,7 +36,7 @@ const Rooms = () => {
                   {icon: <FaCoffee />},
                   {icon: <FaParking />},
                   // {icon: <FaCocktail />},
-                  {icon: <FaStopwatch />}
+                  { icon: <IoLogoNoSmoking /> }
                 ]
               }
               price={price}

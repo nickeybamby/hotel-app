@@ -38,9 +38,9 @@ const About = () => {
         <motion.div className="container about__wrapper">
           <motion.div variants={variants} className="about__wrapper-left">
             <motion.h4>About Us</motion.h4>
-            <motion.h2>A Luxury Hotel & Spa</motion.h2>
+            <motion.h2>Hotel De'Zani</motion.h2>
             <motion.p>
-              Nestled in the heart of Water Resources, Delta State, [Hotel Name]
+              Nestled in the heart of Water Resources, Delta State, Hotel De'Zani
               offers a unique blend of comfort, luxury, and Nigerian
               hospitality. Our story began with a vision to create a sanctuary
               where guests can experience the warmth of home combined with the

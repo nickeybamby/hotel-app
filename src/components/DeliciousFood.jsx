@@ -32,7 +32,7 @@ const DeliciousFood = () => {
           <h4>Delicious Food</h4>
           <h2>We Serve Fresh & Delicious Meals</h2>
           <p>
-            At [Hotel Name], we believe that great hospitality starts with great
+            At Hotel De'Zani, we believe that great hospitality starts with great
             food. Our on-site restaurant offers a diverse menu featuring fresh,
             locally sourced ingredients, ensuring every meal is a delightful
             experience. From hearty breakfasts to gourmet dinners, our culinary

@@ -10,10 +10,12 @@ import Services from "./pages/services/Services";
 import NotFound from "./pages/notFound/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop /> {/* Scroll to top on route change */}
       <Navbar />
       <Routes>
         <Route index element={<Home />} />

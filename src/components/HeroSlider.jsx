@@ -13,7 +13,7 @@ import 'swiper/css/autoplay';
 import { EffectFade, Autoplay } from "swiper/modules";
 
 // images
-import slide1 from "../images/heroSlider/slide1.png";
+import slide1 from "../images/heroSlider/slide1.jpg";
 import slide2 from "../images/heroSlider/slide2.jpg";
 import slide3 from "../images/heroSlider/slide3.jpg";
 

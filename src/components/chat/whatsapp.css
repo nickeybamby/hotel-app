@@ -33,6 +33,6 @@
 @media (max-width: 600px) {
     .whatsapp {
         position: fixed;
-        right: 10px;
+        right: -20px;
       }
 }

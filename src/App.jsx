@@ -11,6 +11,7 @@ import NotFound from "./pages/notFound/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Whatsapp from "./components/chat/Whatsapp";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="services" element={<Services />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Whatsapp />
       <Footer />
     </BrowserRouter>
   );

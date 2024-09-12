@@ -28,7 +28,7 @@ const RoomSection = () => {
   return (
     <motion.section variants={variants} className="roomSection">
       <div className="container room__container">
-        <h3>Luxury Hotel & Spa</h3>
+        <h3>Hotel De'Zani</h3>
         <h1>Rooms & Suites</h1>
         {/* grid */}
         <div className="room__section-slide">

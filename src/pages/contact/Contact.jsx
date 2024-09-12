@@ -51,7 +51,7 @@ const Contact = () => {
           <BsMessenger />
         </motion.a>
         <motion.a
-          href="https://wa.me/+23480110429842"
+          href="https://wa.me/+2348110429842"
           target="_blank"
           rel="noreferrer noopener"
         >

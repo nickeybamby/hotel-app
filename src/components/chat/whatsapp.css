@@ -1,18 +1,38 @@
 .whatsapp {
   position: fixed;
   bottom: 0;
-  right: 100px; 
+  right: 80px; 
   padding: 3rem;
+}
+
+.whatsapp__container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.whatsapp__text {
+  padding: 5px;
+  background: #dddddda1;
+  border-radius: 5px;
+
+  p {
+    font-weight: 500;
+  }
 }
 
 .whatsapp img {
     width: 60px;
 }
 
+@media (max-width: 1024px) {
+    .whatsapp {
+        position: fixed;
+        right: 20px;
+      }
+}
 @media (max-width: 600px) {
     .whatsapp {
         position: fixed;
-        bottom: 0;
-        right: -20px;
+        right: 10px;
       }
 }

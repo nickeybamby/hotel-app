@@ -101,19 +101,11 @@ export const roomData = [
 ];
 
 // add more eroom images for this and name them accordinly
-const Room1 = require("./images/gallery/gallery1.png");
-const Room2 = require("./images/gallery/gallery2.png");
-const Room3 = require("./images/gallery/gallery3.png");
-const Room4 = require("./images/gallery/gallery4.png");
-const Room5 = require("./images/gallery/gallery5.png");
-const Room6 = require("./images/gallery/gallery6.png");
-const Room7 = require("./images/gallery/gallery7.png");
-const Room8 = require("./images/gallery/gallery8.png");
-const Room9 = require("./images/gallery/gallery9.png");
-const Room10 = require("./images/gallery/gallery10.png");
-const Room11 = require("./images/gallery/gallery11.png");
-const Room12 = require("./images/gallery/gallery12.png");
-
+const Room1 = require("./images/rooms/1.png");
+const Room2 = require("./images/rooms/2.png");
+const Room3 = require("./images/rooms/3.png");
+const Room4 = require("./images/rooms/4.png");
+const Room5 = require("./images/rooms/5.png");
 export const roomPage = [
   {
     id: 1,
@@ -137,7 +129,7 @@ export const roomPage = [
   },
   {
     id: 2,
-    name: "Diamond Room",
+    name: "Executive Room",
     desc: "Our Deluxe Room offers a perfect blend of comfort and elegance.",
     facilities: [
       { name: "Wifi", icon: <FaWifi /> },
@@ -152,12 +144,12 @@ export const roomPage = [
         <div>Max 2 people</div>
       </div>
     ),
-    price: 30000,
+    price: 50000,
     image: Room2,
   },
   {
     id: 3,
-    name: "Delux Room",
+    name: "Studio Room",
     desc: "Our Deluxe Room offers a perfect blend of comfort and elegance.",
     facilities: [
       { name: "Wifi", icon: <FaWifi /> },
@@ -172,12 +164,12 @@ export const roomPage = [
         <div>Max 2 people</div>
       </div>
     ),
-    price: 20000,
+    price: 45000,
     image: Room3,
   },
   {
     id: 4,
-    name: "Standard Room",
+    name: "Delux Room",
     desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
     facilities: [
       { name: "Wifi", icon: <FaWifi /> },
@@ -192,7 +184,7 @@ export const roomPage = [
         <div>Max 2 people</div>
       </div>
     ),
-    price: 10000,
+    price: 38000,
     image: Room4,
   },
   {
@@ -212,149 +204,149 @@ export const roomPage = [
         <div>Max 2 people</div>
       </div>
     ),
-    price: 17000,
+    price: 30000,
     image: Room5,
   },
-  {
-    id: 6,
-    name: "Standard Room",
-    desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
-    facilities: [
-      { name: "Wifi", icon: <FaWifi /> },
-      { name: "Coffee", icon: <FaCoffee /> },
-      { name: "Parking", icon: <FaParking /> },
-      { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "Smoke", icon: <IoLogoNoSmoking /> },
-    ],
-    maxPerson: (
-      <div className="room__cap">
-        <BsPeople className="icon__people" />
-        <div>Max 2 people</div>
-      </div>
-    ),
-    price: 20000,
-    image: Room6,
-  },
-  {
-    id: 7,
-    name: "Standard Room",
-    desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
-    facilities: [
-      { name: "Wifi", icon: <FaWifi /> },
-      { name: "Coffee", icon: <FaCoffee /> },
-      { name: "Parking", icon: <FaParking /> },
-      { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "Smoke", icon: <IoLogoNoSmoking /> },
-    ],
-    maxPerson: (
-      <div className="room__cap">
-        <BsPeople className="icon__people" />
-        <div>Max 2 people</div>
-      </div>
-    ),
-    price: 13000,
-    image: Room7,
-  },
-  {
-    id: 8,
-    name: "Standard Room",
-    desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
-    facilities: [
-      { name: "Wifi", icon: <FaWifi /> },
-      { name: "Coffee", icon: <FaCoffee /> },
-      { name: "Parking", icon: <FaParking /> },
-      { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "Smoke", icon: <IoLogoNoSmoking /> },
-    ],
-    maxPerson: (
-      <div className="room__cap">
-        <BsPeople className="icon__people" />
-        <div>Max 2 people</div>
-      </div>
-    ),
-    price: 12000,
-    image: Room8,
-  },
-  {
-    id: 9,
-    name: "Standard Room",
-    desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
-    facilities: [
-      { name: "Wifi", icon: <FaWifi /> },
-      { name: "Coffee", icon: <FaCoffee /> },
-      { name: "Parking", icon: <FaParking /> },
-      { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "Smoke", icon: <IoLogoNoSmoking /> },
-    ],
-    maxPerson: (
-      <div className="room__cap">
-        <BsPeople className="icon__people" />
-        <div>Max 2 people</div>
-      </div>
-    ),
-    price: 15000,
-    image: Room9,
-  },
-  {
-    id: 10,
-    name: "Standard Room",
-    desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
-    facilities: [
-      { name: "Wifi", icon: <FaWifi /> },
-      { name: "Coffee", icon: <FaCoffee /> },
-      { name: "Parking", icon: <FaParking /> },
-      { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "Smoke", icon: <IoLogoNoSmoking /> },
-    ],
-    maxPerson: (
-      <div className="room__cap">
-        <BsPeople className="icon__people" />
-        <div>Max 2 people</div>
-      </div>
-    ),
-    price: 15000,
-    image: Room10,
-  },
-  {
-    id: 11,
-    name: "Standard Room",
-    desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
-    facilities: [
-      { name: "Wifi", icon: <FaWifi /> },
-      { name: "Coffee", icon: <FaCoffee /> },
-      { name: "Parking", icon: <FaParking /> },
-      { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "Smoke", icon: <IoLogoNoSmoking /> },
-    ],
-    maxPerson: (
-      <div className="room__cap">
-        <BsPeople className="icon__people" />
-        <div>Max 2 people</div>
-      </div>
-    ),
-    price: 15000,
-    image: Room11,
-  },
-  {
-    id: 12,
-    name: "Standard Room",
-    desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
-    facilities: [
-      { name: "Wifi", icon: <FaWifi /> },
-      { name: "Coffee", icon: <FaCoffee /> },
-      { name: "Parking", icon: <FaParking /> },
-      { name: "Cocktail", icon: <FaCocktail /> },
-      { name: "Smoke", icon: <IoLogoNoSmoking /> },
-    ],
-    maxPerson: (
-      <div className="room__cap">
-        <BsPeople className="icon__people" />
-        <div>Max 2 people</div>
-      </div>
-    ),
-    price: 15000,
-    image: Room12,
-  },
+  // {
+  //   id: 6,
+  //   name: "Standard Room",
+  //   desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
+  //   facilities: [
+  //     { name: "Wifi", icon: <FaWifi /> },
+  //     { name: "Coffee", icon: <FaCoffee /> },
+  //     { name: "Parking", icon: <FaParking /> },
+  //     { name: "Cocktail", icon: <FaCocktail /> },
+  //     { name: "Smoke", icon: <IoLogoNoSmoking /> },
+  //   ],
+  //   maxPerson: (
+  //     <div className="room__cap">
+  //       <BsPeople className="icon__people" />
+  //       <div>Max 2 people</div>
+  //     </div>
+  //   ),
+  //   price: 20000,
+  //   image: Room6,
+  // },
+  // {
+  //   id: 7,
+  //   name: "Standard Room",
+  //   desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
+  //   facilities: [
+  //     { name: "Wifi", icon: <FaWifi /> },
+  //     { name: "Coffee", icon: <FaCoffee /> },
+  //     { name: "Parking", icon: <FaParking /> },
+  //     { name: "Cocktail", icon: <FaCocktail /> },
+  //     { name: "Smoke", icon: <IoLogoNoSmoking /> },
+  //   ],
+  //   maxPerson: (
+  //     <div className="room__cap">
+  //       <BsPeople className="icon__people" />
+  //       <div>Max 2 people</div>
+  //     </div>
+  //   ),
+  //   price: 13000,
+  //   image: Room7,
+  // },
+  // {
+  //   id: 8,
+  //   name: "Standard Room",
+  //   desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
+  //   facilities: [
+  //     { name: "Wifi", icon: <FaWifi /> },
+  //     { name: "Coffee", icon: <FaCoffee /> },
+  //     { name: "Parking", icon: <FaParking /> },
+  //     { name: "Cocktail", icon: <FaCocktail /> },
+  //     { name: "Smoke", icon: <IoLogoNoSmoking /> },
+  //   ],
+  //   maxPerson: (
+  //     <div className="room__cap">
+  //       <BsPeople className="icon__people" />
+  //       <div>Max 2 people</div>
+  //     </div>
+  //   ),
+  //   price: 12000,
+  //   image: Room8,
+  // },
+  // {
+  //   id: 9,
+  //   name: "Standard Room",
+  //   desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
+  //   facilities: [
+  //     { name: "Wifi", icon: <FaWifi /> },
+  //     { name: "Coffee", icon: <FaCoffee /> },
+  //     { name: "Parking", icon: <FaParking /> },
+  //     { name: "Cocktail", icon: <FaCocktail /> },
+  //     { name: "Smoke", icon: <IoLogoNoSmoking /> },
+  //   ],
+  //   maxPerson: (
+  //     <div className="room__cap">
+  //       <BsPeople className="icon__people" />
+  //       <div>Max 2 people</div>
+  //     </div>
+  //   ),
+  //   price: 15000,
+  //   image: Room9,
+  // },
+  // {
+  //   id: 10,
+  //   name: "Standard Room",
+  //   desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
+  //   facilities: [
+  //     { name: "Wifi", icon: <FaWifi /> },
+  //     { name: "Coffee", icon: <FaCoffee /> },
+  //     { name: "Parking", icon: <FaParking /> },
+  //     { name: "Cocktail", icon: <FaCocktail /> },
+  //     { name: "Smoke", icon: <IoLogoNoSmoking /> },
+  //   ],
+  //   maxPerson: (
+  //     <div className="room__cap">
+  //       <BsPeople className="icon__people" />
+  //       <div>Max 2 people</div>
+  //     </div>
+  //   ),
+  //   price: 15000,
+  //   image: Room10,
+  // },
+  // {
+  //   id: 11,
+  //   name: "Standard Room",
+  //   desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
+  //   facilities: [
+  //     { name: "Wifi", icon: <FaWifi /> },
+  //     { name: "Coffee", icon: <FaCoffee /> },
+  //     { name: "Parking", icon: <FaParking /> },
+  //     { name: "Cocktail", icon: <FaCocktail /> },
+  //     { name: "Smoke", icon: <IoLogoNoSmoking /> },
+  //   ],
+  //   maxPerson: (
+  //     <div className="room__cap">
+  //       <BsPeople className="icon__people" />
+  //       <div>Max 2 people</div>
+  //     </div>
+  //   ),
+  //   price: 15000,
+  //   image: Room11,
+  // },
+  // {
+  //   id: 12,
+  //   name: "Standard Room",
+  //   desc: "Our Deluxe Room offers a perfect blend of comfort and elegance. ",
+  //   facilities: [
+  //     { name: "Wifi", icon: <FaWifi /> },
+  //     { name: "Coffee", icon: <FaCoffee /> },
+  //     { name: "Parking", icon: <FaParking /> },
+  //     { name: "Cocktail", icon: <FaCocktail /> },
+  //     { name: "Smoke", icon: <IoLogoNoSmoking /> },
+  //   ],
+  //   maxPerson: (
+  //     <div className="room__cap">
+  //       <BsPeople className="icon__people" />
+  //       <div>Max 2 people</div>
+  //     </div>
+  //   ),
+  //   price: 15000,
+  //   image: Room12,
+  // },
 ];
 
 export const links = [

@@ -1,3 +1,19 @@
+.disclaimer {
+    height: fit-content;
+    width: 100%;
+}
+
+.disclaimer__heading {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.disclaimer__text {
+    margin: 6rem 3rem auto;
+    text-align: center;
+    align-items: center;
+}
+
 .hotelRooms {
     padding: 6rem 0;
 }

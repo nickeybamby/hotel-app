@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import HeaderImage from "../../images/gallery/img__contact.png";
 import { MdEmail } from "react-icons/md";
-import { BsMessenger } from "react-icons/bs";
+import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
 
 import "./contact.css";
@@ -48,7 +48,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <BsMessenger />
+          <RiInstagramFill />
         </motion.a>
         <motion.a
           href="https://wa.me/+2348110429842"
@@ -58,6 +58,7 @@ const Contact = () => {
           <IoLogoWhatsapp />
         </motion.a>
       </motion.div>
+
       <ContactSection />
     </>
   );

@@ -44,7 +44,7 @@ const Contact = () => {
           <MdEmail />
         </motion.a>
         <motion.a
-          href="https://m.me/clinicraftstudios"
+          href="https://instagram.com/direct/t/17846334708255363"
           target="_blank"
           rel="noreferrer noopener"
         >

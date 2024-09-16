@@ -56,8 +56,7 @@ const ContactSection = () => {
             </motion.div>
             <motion.div className="item">
                 <h4>Phone</h4>
-                <p>0906 581 9236</p>
-                <p>0907 694 0007</p>
+                <p>081 1042 9842</p>
             </motion.div>
         </motion.div>
         <div className="formContainer">

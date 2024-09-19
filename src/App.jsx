@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Whatsapp from "./components/chat/Whatsapp";
+import FoodMenu from "./pages/food/FoodMenu";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="gallery" element={<Gallery />} />
         <Route path="rooms" element={<Rooms />} />
         <Route path="services" element={<Services />} />
+        <Route path="foodmenu" element={<FoodMenu />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Whatsapp />

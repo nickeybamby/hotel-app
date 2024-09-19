@@ -1,0 +1,50 @@
+.foodMenu__nav {
+    display: flex;
+    overflow-x: scroll;
+    gap: 30px;
+    scroll-behavior: smooth;
+    position: sticky;
+    top: 7.5rem;
+    left: 0;
+}
+
+.foodMenu__btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(7, 7, 59);
+}
+
+.food__menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.food__menu-card p {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.food__menu {
+  margin-top: 6rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.food__menu-title {
+  margin: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.food__menu-image img {
+  height: 350px;
+  width: 350px;
+  border-radius: 20px;
+}

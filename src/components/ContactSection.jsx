@@ -52,7 +52,7 @@ const ContactSection = () => {
             </motion.div>
             <motion.div className="item">
                 <h4>Address</h4>
-                <span>Water Resources Izakpa, Off Airport Road, Warri, Delta State.</span>
+                <span>Water Resources Off Izakpa Road, Back of old Airport, Warri, Delta State.</span>
             </motion.div>
             <motion.div className="item">
                 <h4>Phone</h4>

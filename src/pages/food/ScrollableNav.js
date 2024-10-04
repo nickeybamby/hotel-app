@@ -1,43 +1,13 @@
-import React, { useRef, useState } from "react";
 import './food.css';
 
 const ScrollableNav = () => {
-  const scrollContainerRef = useRef(null);
-  const [touchStartX, setTouchStartX] = useState(0); // Track where the touch starts
-  const [touchEndX, setTouchEndX] = useState(0); // Track where the touch ends
-
-  // Handle touch start
-  const handleTouchStart = (e) => {
-    setTouchStartX(e.targetTouches[0].clientX);
-  };
-
-  // Handle touch move
-  const handleTouchMove = (e) => {
-    setTouchEndX(e.targetTouches[0].clientX);
-  };
-
-  // Handle touch end to detect swipe direction
-  const handleTouchEnd = () => {
-    const swipeDistance = touchStartX - touchEndX;
-    if (swipeDistance > 50) {
-      // Swiped left (move right)
-      scrollContainerRef.current.scrollBy({ left: 200, behavior: "smooth" });
-    } else if (swipeDistance < -50) {
-      // Swiped right (move left)
-      scrollContainerRef.current.scrollBy({ left: -200, behavior: "smooth" });
-    }
-  };
 
   return (
-    <div>
+    <div className="foodMenu__nav">
       {/* Scrollable nav container */}
       <div
-        className="scroll-container"
-        ref={scrollContainerRef}
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
-        style={{ overflowX: "", display: "flex", whiteSpace: "nowrap", gap: "20px"}}
+        className="scroll-container "
+      
       >
         <button
           className="foodMenu__btn"

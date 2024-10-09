@@ -10,7 +10,7 @@ const Footer = () => {
           <img src={Logo} alt="footer Logo" />
         </Link>
         <div className="footer__text">
-          <p>&copy; 2024 Luxury Hotel & Spa. All rights reserved. | Powered by <a href="https://clinicraftstudios.agency" target="blank">CliniCraft Studios</a></p>
+          <p>&copy; 2024 Hotel De'zani. All rights reserved. | Powered by <a href="https://www.clinicraftstudios.xyz" target="blank">CliniCraft Studios</a></p>
         </div>
       </div>
     </footer>
